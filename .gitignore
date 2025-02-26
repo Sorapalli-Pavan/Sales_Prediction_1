@@ -1,0 +1,19 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore model & encoder files (optional, if large)
+*.pkl
+
+# Ignore dataset (optional, if large)
+data/
+
+# Ignore IDE and system files
+.vscode/
+.DS_Store
